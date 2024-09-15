@@ -1,0 +1,38 @@
+.form {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  min-width: 300px;
+}
+.blok {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.field {
+  font: inherit;
+  padding: 4px;
+}
+.error {
+  color: red;
+  font-style: italic;
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 20px auto;
+}

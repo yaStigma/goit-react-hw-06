@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.text {
+  margin: 0;
+}
+.button {
+  background-color: #7c8185;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
